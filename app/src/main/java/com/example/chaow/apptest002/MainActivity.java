@@ -25,6 +25,9 @@ public class MainActivity extends AppCompatActivity
 
     // OpenCV Load
     static {
+
+        System.loadLibrary("native-lib");
+
         if(OpenCVLoader.initDebug()) {
             Log.i("OpenCV", "Success");
         }
