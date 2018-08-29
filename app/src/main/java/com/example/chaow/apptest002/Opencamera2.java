@@ -131,6 +131,8 @@ public class Opencamera2 extends AppCompatActivity implements CameraBridgeViewBa
 
 
         //ImgProcess(mRgbaT.getNativeObjAddr(),grayImage.getNativeObjAddr());
+
+
         return image;
 
     }
